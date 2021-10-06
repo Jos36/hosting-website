@@ -12,15 +12,12 @@ class Footer extends Component {
           </div>
           <div className="support">
             <h1>support</h1>
-            <a href="#">
-              <h2> Privacy Policy</h2>
-            </a>
-            <a href="#">
-              <h2>Terms & conditions</h2>
-            </a>
-            <a href="#">
-              <h2>Sitemap</h2>
-            </a>
+
+            <h2> Privacy Policy</h2>
+
+            <h2>Terms & conditions</h2>
+
+            <h2>Sitemap</h2>
           </div>
           <h4 className="cr">© 2020 Copyright Superhost</h4>
         </div>

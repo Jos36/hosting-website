@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Nav from "./nav";
 import Footer from "./footer";
@@ -124,9 +124,8 @@ export default function Home() {
             <div className="text-wrapper ">
               <h1 className="bottom-text heading">Contact us</h1>
 
-              <a href="#">
-                <h2 className="bottom-text heading">superhost@gmail.com</h2>
-              </a>
+              <h2 className="bottom-text heading">superhost@gmail.com</h2>
+
               <h2 className="bottom-text heading">817-818-8743</h2>
               <h2 className="bottom-text">612-791-8721</h2>
             </div>
