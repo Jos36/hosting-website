@@ -1,0 +1,22 @@
+.nav {
+  background-color: #14279b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  padding: 12%;
+}
+
+.sign {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 2em;
+}
