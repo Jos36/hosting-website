@@ -8,6 +8,7 @@
   padding: 0;
   font-family: sora;
   color: #e5e5e5;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #e5e5e5;
@@ -21,7 +22,7 @@ h1 {
 
 .welcome {
   width: 100vw;
-  height: 100vh;
+  height: max-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,22 +32,31 @@ h1 {
 .overlay {
   background-color: black;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: absolute;
   opacity: 0.7;
 }
 
 .cover {
   width: 100vw;
-  height: 100vh;
+  height: auto;
+  position: relative;
   z-index: -1;
+  opacity: 1;
+}
+
+.container {
+  width: fit-content;
+  height: min-content;
+  position: relative;
 }
 
 .heading {
   margin-bottom: 2em;
 }
 .text {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,6 +105,10 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .welcome .text > * {
+    font-size: 70%;
+  }
+
   div .footer-img {
     height: 46vh;
     width: 100vw;

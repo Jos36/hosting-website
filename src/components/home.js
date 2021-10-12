@@ -7,12 +7,14 @@ export default function Home() {
   return (
     <div className="home" id="home">
       <Nav />
-      <Parallax pages={6}>
+      <Parallax pages={5.2}>
         <ParallaxLayer offset={0} speed={0.1}>
           <div className="welcome">
             <ParallaxLayer offset={0} speed={0.2}>
-              <div className="overlay"></div>
-              <img className="cover" src="/cover.jpg" alt="" />
+              <div className="container">
+                <div className="overlay"></div>
+                <img className="cover" src="/cover.jpg" alt="" />
+              </div>
             </ParallaxLayer>
 
             <div className="text">
@@ -28,34 +30,34 @@ export default function Home() {
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={5.6} speed={0.4}>
+        <ParallaxLayer offset={4.85} speed={0.4}>
           <Footer />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} factor={0.5} speed={0.6}>
+        <ParallaxLayer offset={0.9} speed={0.6}>
           <img
             src="trs.svg"
             alt=""
             style={{ width: "30%", marginLeft: "10%" }}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={1.5} factor={0.5} speed={0.7}>
+        <ParallaxLayer offset={1} speed={0.7}>
           <img
             src="trs.svg"
             alt=""
             style={{ width: "35%", marginLeft: "80%" }}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={1.8} factor={0.5} speed={0.9}>
+        <ParallaxLayer offset={1.9} speed={0.9}>
           <img
             src="trs.svg"
             alt=""
             style={{ width: "5%", marginLeft: "60%" }}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={2} factor={0.5} speed={0.2}>
-          <img src="trs.svg" alt="" style={{ width: "40%" }} />
+        <ParallaxLayer offset={1.95} speed={0.2}>
+          <img src="trs.svg" alt="" style={{ width: "37%" }} />
         </ParallaxLayer>
-        <ParallaxLayer offset={2.5} factor={0.5} speed={1}>
+        <ParallaxLayer offset={1.9} speed={1}>
           <img
             src="trs.svg"
             alt=""
@@ -63,21 +65,21 @@ export default function Home() {
           />
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3} factor={0.5} speed={0.9}>
+        <ParallaxLayer offset={2.5} speed={0.9}>
           <img
             src="cloud.svg"
             alt=""
             style={{ width: "40%", marginLeft: "80%" }}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={3.2} factor={0.5} speed={0.8}>
+        <ParallaxLayer offset={2.6} speed={0.8}>
           <img
             src="cloud2.svg"
             alt=""
             style={{ width: "20%", marginLeft: "50%" }}
           />
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.4}>
+        <ParallaxLayer offset={0.9} speed={0.4}>
           <div className="section">
             <img className="left" src="/first.svg" alt="" />
             <div className="text-wrapper ">
@@ -91,7 +93,7 @@ export default function Home() {
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={2} speed={0.4}>
+        <ParallaxLayer offset={1.5} speed={0.4}>
           <div className="section wrap-rev">
             <div className="text-wrapper ">
               <h1 className="bottom-text heading">Monitor your servers</h1>
@@ -105,7 +107,7 @@ export default function Home() {
             <img src="/second.svg" alt="" className="right" />
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={3} speed={0.4}>
+        <ParallaxLayer offset={2.5} speed={0.4}>
           <div className="section">
             <img src="/third.svg" alt="" className="left" />
             <div className="text-wrapper ">
@@ -119,7 +121,7 @@ export default function Home() {
             </div>
           </div>
         </ParallaxLayer>
-        <ParallaxLayer offset={4.2} speed={0.4}>
+        <ParallaxLayer offset={3.5} speed={0.4}>
           <div className="section wrap-rev">
             <div className="text-wrapper ">
               <h1 className="bottom-text heading">Contact us</h1>
